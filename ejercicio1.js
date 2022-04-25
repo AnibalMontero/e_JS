@@ -14,8 +14,10 @@ if (primerNumero < segundoNumero && primerNumero < tercerNumero) {
   console.log('este es el menor ' + tercerNumero);
 }
 
-// switch(primerNumero) {
-//     case < segundoNumero && :
-//         console.log ("Este es el menor");
-//         break;
+// let menor = 0;
+// for (let i = 0; i < 3; i++) {
+//   let num = parseInt(prompt('Introduzca un numero'));
+//   if (i == 0) menor = num;
+//   if (num < menor) menor = num;
 // }
+// console.log(`el menor de los tres números es ${menor}`);

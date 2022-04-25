@@ -3,10 +3,32 @@
 let letra = prompt('Introduce una letra');
 
 switch (letra) {
-  case a:
+  case (letra = 'a'):
     console.log(7);
-  case b:
+    break;
+  case (letra = 'b'):
     console.log(9);
-  case c:
+    break;
+  case (letra = 'c'):
     console.log(101);
+    break;
+  default:
+    console.log('Te has equivocado de Letra');
 }
+//la misma version pero con alert
+
+// let letra = prompt('Introduce una letra');
+
+// switch (letra) {
+//   case letra = "a":
+//     alert("7")
+//     break
+//   case letra = "b":
+//     alert("9");
+//     break
+//   case letra = "c":
+//     alert("101");
+//     break
+//     default:
+//         console.log("Te has equivocado de Letra");
+// }
